@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  height: 100;
+
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #2c2a2a;
+  height: 100;
+}
+
+.navbar ul {
+  background-color: rgb(25, 25, 25);
+  font-size: 17px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 1rem 10%;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  max-width: 100%;
+}
+
+.navbar ul li a {
+  margin-left: 25px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.navbar ul .hire-btn {
+  margin-left: 25px;
+  background-color: #b69d30;
+  border: none;
+  height: 35px;
+  width: 105px;
+  font-size: 15px;
+  border-radius: 18px;
+  color: #000000;
+  border-color: none;
+}
+
+.navbar ul li a:hover {
+  color: #dbbd35;
+}
+
+.navbar .login {
+  margin-left: 950px;
+  background-color: #636085;
+  height: 45px;
+  width: 125px;
+  font-size: 17px;
+  border-radius: 18px;
+  color: #d0c6db;
+  border-color: none;
+  border: none;
+  max-width: 100%;
+}
+
+.navbar .login:hover {
+  background-color: #b8b8b4;
+  color: #000000;
+}
+
+.text {
+  text-align: center;
+  margin-top: 350px;
+  max-width: 100%;
+}
+
+.text h2 {
+  color: #fff;
+  max-width: 700px;
+  font-size: 55px;
+  margin-left: 545px;
+}
+
+.text p {
+  color: #b8b8b4;
+  max-width: 425px;
+  margin-left: 680px;
+  margin-top: 25px;
+}
+
+.text .login {
+  background-color: #636085;
+  height: 40px;
+  width: 165px;
+  font-size: 17px;
+  border-radius: 13px;
+  color: #ffffff;
+  border-color: none;
+  max-width: 100%;
+}
+
+.text button {
+  margin-left: 25px;
+  background-color: #2c2a2a;
+  height: 40px;
+  width: 160px;
+  font-size: 15px;
+  border-radius: 12px;
+  color: #ffffff;
+  border-color: #fff;
+  margin-top: 25px;
+  max-width: 100%;
+}
+
+.buton {
+  margin-right: 77px;
+  border: none;
+}
+@media screen and (max-width: 999px) {
+  .navbar ul li a {
+    display: flex;
+    margin-left: 215px;
+    max-width: 100%;
+  }
+
+  .navbar ul .hire-btn {
+    margin-left: 200px;
+    max-width: 290px;
+  }
+
+  .text {
+    text-align: center;
+    justify-content: center;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .text h2 {
+    margin-left: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+  }
+  .text p {
+    margin-left: 260px;
+  }
+  .text img {
+    display: flex;
+    max-width: 100%;
+    width: 200px;
+    margin-left: 390px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .navbar ul li a {
+    color: #ffffff;
+    margin-left: 140px;
+  }
+  .navbar ul .hire-btn {
+    font-size: 17px;
+    max-width: 100%;
+    width: 100px;
+    padding: 5px 10px 5px;
+  }
+  .text p {
+    margin-left: 180px;
+  }
+  .text h2 {
+    margin-left: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar ul li a {
+    color: #ffffff;
+    margin-left: 40px;
+  }
+
+  .text p {
+    margin-left: 80px;
+  }
+
+  .text h2 {
+    margin-left: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .navbar ul li a {
+    display: none;
+  }
+
+  .text h2 {
+    font-size: 28px;
+    max-width: 90%;
+    margin-right: 45px;
+  }
+
+  .text p {
+    display: none;
+  }
+  .text {
+    margin-left: 45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar ul li a {
+    margin-left: 90px;
+  }
+
+  .text h2 {
+    margin-left: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .text p {
+    margin-left: 150px;
+  }
+}
+
+.text h3 {
+  font-size: 1px;
+}
+
+.text img {
+  width: 1px;
+}
